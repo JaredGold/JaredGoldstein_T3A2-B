@@ -1,9 +1,12 @@
 import React from 'react'
+import { Typography } from '@material-ui/core';
 
 const About = () => {
   return(
     <>
-      <h1>About Us Page</h1>
+      <Typography component="h1" variant="h4">
+        About Us
+      </Typography>
     </>
   )
 }

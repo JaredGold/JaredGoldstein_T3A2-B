@@ -30,7 +30,7 @@ const NavBar = () => {
     <AppBar position="sticky">
       <Toolbar>
         <Typography component="h1" variant="h6">BoxBox</Typography>
-        <Tabs value={pathname}>
+        <Tabs value={pathname} >
           {navLinks.map(({label, value}) => (
             <Tab key={value} label={label} value={value} component={Link} to={value} />
           ))}
